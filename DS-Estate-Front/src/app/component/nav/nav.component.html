@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 " id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="/" style="cursor:pointer;">DS Estate</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" data="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" data="/reservation">Reservation</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button id="d-toggle" class="btn btn-primary dropdown-toggle" type="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                            Hi, isLoggedIn ? username : 'Guest'
+                        </button>
+                        <div class="dropdown-menu" id="drop-down">
+                            <a class="dropdown-item" id="login-btn" data="/login">Login</a>
+                            <a class="dropdown-item" id="create-listing-btn" data="/listing">My Listings</a>
+                            <a class="dropdown-item" id="reservation-btn" data="/my-reservations">My Reservations</a>
+                            <a class="dropdown-item" id="logout-btn" data="/"> Logout</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

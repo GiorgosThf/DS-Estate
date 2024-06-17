@@ -1,0 +1,35 @@
+<div class="container my-5">
+    <h2 class="mb-4 text-center">My Listings</h2>
+    <div id="listings" class="row justify-content-center">
+
+    </div>
+
+    <div id="create-listing">
+        <div class="form">
+            <form id="create-listing-form" class="needs-validation" novalidate>
+                <h2 class="mb-4 text-center">Create a New Listing</h2>
+                <input placeholder="Image URL" type="text" id="imageUrl" name="photo_url" class="form-control" required>
+                <div class="invalid-feedback">Please provide an image URL.</div>
+                <br>
+                <input placeholder="Title" type="text" id="title" name="title" class="form-control" required
+                       pattern="[A-Za-z\s]+">
+                <div class="invalid-feedback">Please provide a title using letters and spaces only.</div>
+                <br>
+                <input placeholder="Location" type="text" id="location" name="area" class="form-control" required
+                       pattern="[A-Za-z\s]+">
+                <div class="invalid-feedback">Please provide a location using letters and spaces only.</div>
+                <br>
+                <input placeholder="Number of rooms" type="number" id="rooms" name="number_of_rooms"
+                       class="form-control" required>
+                <div class="invalid-feedback">Please provide the number of rooms.</div>
+                <br>
+                <input placeholder="Price per night" type="number" id="price" name="price_per_night"
+                       class="form-control" required>
+                <div class="invalid-feedback">Please provide the price per night.</div>
+                <br>
+                <p id="message"></p>
+                <button type="submit">Create Listing</button>
+            </form>
+        </div>
+    </div>
+</div>

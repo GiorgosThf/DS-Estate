@@ -1,0 +1,47 @@
+#main-footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #dee2e6;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+#main-footer .container p {
+    display: flex;
+    align-items: center;
+}
+
+#main-footer .container p i {
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+
+.social-icon i {
+    margin-right: 20px; /* Increased spacing between icons */
+    text-decoration: none;
+    /* font-size: 20px;*/
+    display: inline-block; /* Ensure spacing works properly */
+}
+
+/* Επιπλέον χρώματα αν χρειαστεί */
+.social-icon:hover i {
+    opacity: 0.7;
+}
+
+.contact-info, .map-container {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}

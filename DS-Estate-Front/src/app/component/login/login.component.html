@@ -1,0 +1,73 @@
+<div class="mainContainer d-flex justify-content-center">
+    <div id="login-container" class="d-flex justify-content-center">
+        <div class='login-container ' id="over-cont">
+            <div class="form-container sign-up-container mobile-hidden" id="sign-up-cont">
+                <form class="form" id="register-Form">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                    </div>
+                    <input class="form-control" type="text" id="regName" placeholder="Name" name="first_name" required>
+                    <div class="invalid-feedback">
+                        Please select a valid first name.
+                    </div>
+                    <input class="form-control" type="text" id="regSurname" placeholder="Surname" name="last_name"
+                           required>
+                    <div class="invalid-feedback">
+                        Please select a valid last name.
+                    </div>
+                    <input class="form-control" type="email" id="regEmail" placeholder="Email" name="email" required>
+                    <div class="invalid-feedback">
+                        Please select a valid email.
+                    </div>
+                    <input class="form-control" type="text" id="regUsername" placeholder="Username" name="username"
+                           required>
+                    <div class="invalid-feedback">
+                        Please select a valid username.
+                    </div>
+                    <input class="form-control" type="password" id="regPassword" placeholder="Password" name="password"
+                           required>
+                    <div class="invalid-feedback">
+                        Please select a valid password.
+                    </div>
+                    <button type="submit">Εγγραφή</button>
+                    <div id="register-message" class="error-message"></div>
+                </form>
+                <button id="login_mobile"> Συνδέσου με τον λογαριασμό σου!</button>
+            </div>
+            <div class="form-container sign-in-container" id="log-in-cont">
+                <form class="form" id="login-form">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                    </div>
+                    <input class="form-control" type="text" id="username" placeholder="Username" name="username"
+                           required/>
+                    <div class="invalid-feedback">
+                        Please select a valid username.
+                    </div>
+                    <input class="form-control" type="password" id="password" placeholder="Password" name="password"
+                           required/>
+                    <div class="invalid-feedback">
+                        Please select a valid password.
+                    </div>
+                    <button type="submit">Σύνδεση</button>
+                    <div id="error-message" class="error-message"></div>
+                </form>
+                <button id="register_mobile"> Δέν έχεις λογαριασμό; Κάνε ενα νέο λογαριασμό τώρα!</button>
+            </div>
+            <div class="overlay-container ">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Βρες τώρα αυτό που αναζητάς!</h1>
+                        <p>Το ξέρουμε ότι σου λείψαμε...</p>
+                        <button class="ghost" id="signIn">Συνδέσου Τώρα</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Γεια σου!</h1>
+                        <p>Δημιούργησε τώρα τον λογαριασμό σου...</p>
+                        <button class="ghost" id="signUp">Κάνε Εγγραφή</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

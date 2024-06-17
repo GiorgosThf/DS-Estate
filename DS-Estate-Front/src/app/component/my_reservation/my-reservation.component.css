@@ -1,0 +1,60 @@
+#my-reservation-form input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.reservation {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.reservation img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 180px;
+}
+
+.reservation h3 {
+    margin: 10px 0 5px;
+}
+
+#my-reservation-form {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%
+
+}
+
+#my-reservation-form h1 {
+    text-align: center;
+
+    font-weight: bold;
+    margin: 0;
+}
+
+#my-reservation-form p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 20px 0 30px;
+}
+
+#my-reservation-form input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
